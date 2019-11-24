@@ -6,7 +6,7 @@ function init(){
   var h2 = document.getElementById('textoutput');
   
   button.addEventListener('click', function() {
-    alert('Yixin: ' + text.value);
+    alert('Yixin: ' + input.value);
 });
 
   button.addEventListener('click', function() {
@@ -14,10 +14,5 @@ function init(){
 });
 
 }
-
-
-
-
-
 
 window.addEventListener('load', init);
